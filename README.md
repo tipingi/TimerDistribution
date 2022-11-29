@@ -1,14 +1,12 @@
-﻿## Introduction
+﻿### TimerDistribution
 
-피엔케이이엔지 밸브 사이징 프로그램
+## Description
+| 2022.11. - 
 
-## Reference links
+* C# .NET을 이용한 시간 분배 측정 프로젝트.
 
-(주)오딘소프트 http://www.odinsoft.co.kr
+## About Project
 
-## What's contained in this project
+하루 24시간 중 8시간 취침, 2시간 기타 식사 및 이동시간 제하면 14시간.
 
-
-## .net core build & deploy
-
-dotnet publish -c Release -r win-x64 --self-contained true -o D:\deploy\pnkeng\pvsp -p:PublishReadyToRun=true -p:PublishSingleFile=true
+14시간을 어떻게 살아가는지 시간을 측정 및 기록 하는 프로그램.
